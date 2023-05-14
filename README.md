@@ -9,11 +9,13 @@ In the main code “main.py”, first the questionnaire with 16 questions and 3 
 Optimization:
 After answering the questions and clicking the create portfolio button the portfolio optimization code runs. First, the total score is calculated by summing up the scores for all the questions. The total range is divided into 5 equal intervals as risk classes for which 5 values for risk-aversion coefficient   is assigned for the quadratic utility function. So, depending on the interval the total score is in, the corresponding risk-aversion coefficient is taken.   can have a wide range between 0.1 and 10 or higher, but the most widely accepted values are between 1 and 3. Therefore, we used values between 1 and 6, which seems to be a reasonable choice. 
 	 
-![image](https://github.com/ali-azary/RoboAdvisor/assets/69943289/7994182a-0134-4708-954b-b974f7b8b98a)
+![image](https://github.com/ali-azary/RoboAdvisor/assets/69943289/9df3d273-f28f-47d7-aa04-f1278ad6ec8d)
+
 
 Then mean returns and covariances are calculated from the 5-year monthly data imported from the sheet named “returns”. Then the utility function is maximized to find optimal weights of the portfolios. Restricting the weights to the interval between 0 and 1 no shorting is allowed. 
 	 
-![image](https://github.com/ali-azary/RoboAdvisor/assets/69943289/d379f6da-5b4e-4fb1-ac02-71edd3e6afc3)
+
+![image](https://github.com/ali-azary/RoboAdvisor/assets/69943289/85a94574-d7c5-4267-acd5-a0a2eb3339dd)
 
 
 Multiplying the resulting optimal portfolio weights by returns of each ETF the portfolio returns are calculated and used to calculate the performance of the portfolio for the past 5 years starting from 100. Also, the triple exponential smoothing of Holt-Winters is used to forecast the performance for the following 12 months based on the performance of past 5 years. Exponential smoothing uses the historical data to forecast putting more weight on the most recent points. The simplest model only forecasts the level of the time series. Holt’s linear trend method also incorporates the trend along with the level. Holt-Winters or triple exponential smoothing also includes seasonality in forecasting.
