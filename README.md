@@ -1,5 +1,5 @@
 # RoboAdvisor
-Optimal portfolio of ETFs based on risk classusing mean variance optimization
+Optimal portfolio of ETFs based for five risk appetites using mean variance optimization
 
 ![image](https://github.com/ali-azary/RoboAdvisor/assets/69943289/8161ec57-0c9f-4384-b7d7-308228f0860d)
 
