@@ -1,7 +1,7 @@
 # RoboAdvisor
 Optimal portfolio of ETFs based on risk classusing mean variance optimization
 
-![image](https://github.com/ali-azary/RoboAdvisor/assets/69943289/0b1f554d-e398-4db9-ac37-cfc9a7585aaf)
+![image](https://github.com/ali-azary/RoboAdvisor/assets/69943289/8161ec57-0c9f-4384-b7d7-308228f0860d)
 
 Initial Selection:
 “ETF-data.xlsx” sheet ETF data is the data for all ETFs downloaded from stockanalysis.com.
