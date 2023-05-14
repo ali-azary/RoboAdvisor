@@ -1,5 +1,8 @@
 # RoboAdvisor
 Optimal portfolio of ETFs based on risk classusing mean variance optimization
+
+![image](https://github.com/ali-azary/RoboAdvisor/assets/69943289/0b1f554d-e398-4db9-ac37-cfc9a7585aaf)
+
 Initial Selection:
 “ETF-data.xlsx” sheet ETF data is the data for all ETFs downloaded from stockanalysis.com.
 In the preprocess.py script top 100 ETFs with highest volumes and top 100 ETFs with highest assets are taken and the common ETFs from both lists are chosen as best ETFs with high liquidity and narrow spread. As a result, we have 37 ETFs, for which monthly price history for is downloaded from yahoo finance for the past 5 years from 2018-01-01 to 2022-12-31 and stored in the sheet named “price history”. Then the monthly returns are calculated taking into account expense ratios and stored in the sheet named “returns”.
