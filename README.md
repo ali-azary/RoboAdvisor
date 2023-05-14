@@ -22,12 +22,3 @@ Multiplying the resulting optimal portfolio weights by returns of each ETF the p
 Results:
 In the end, a gauge shows the level of risk class and two plots are output: the performance plot over time and the pie chart of asset allocation indicating percentages and name of ETFs and their type of asset class. For example we can see comparing the riskiest and the least risky portfolios, we can see that for the riskiest the returns are higher as well as the variations. Also, it is worth noting the difference between diversification and asset classes in each portfolio.
  
-References
-
-https://stockanalysis.com/etf/screener/
-https://www.initialreturn.com/risk-aversion-coefficient-meaning-formula/
-https://www.investopedia.com/articles/exchangetradedfunds/08/etf-choose-best.asp
-https://www.investopedia.com/terms/v/var.asp
-Kim, D. and Francis, J.C., 2013. Modern portfolio theory: Foundations, analysis, and new developments. John Wiley & Sons.
-https://towardsdatascience.com/time-series-forecasting-with-holt-winters-b78ffc322f24
-Gándelman and Hernández-Murillo (2015) “Risk aversion at the country level” Federal Reserve Bank of St. Louis Review, First Quarter 2015, 97(1), pp. 53-66
