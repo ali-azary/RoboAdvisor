@@ -316,7 +316,7 @@ button.pack()
 button.place(x=100,y=935)
 
 # privacy disclaimer
-Label(base, text="Privacy Policy: LEHMAN SISTERS RoboAdvisor does not collect or store any user data, ensuring complete privacy and anonymity for our users.",font=("bold",7)).place(x=20,y=900) 
+# Label(base, text="Privacy Policy: RoboAdvisor does not collect or store any user data, ensuring complete privacy and anonymity for our users.",font=("bold",7)).place(x=20,y=900) 
 
 def handle_click(event):
     
